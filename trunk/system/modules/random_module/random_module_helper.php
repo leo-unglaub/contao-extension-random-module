@@ -54,6 +54,7 @@ class random_module_helper extends Backend
 			$arrReturn[$objModules->id] = $objModules->name;
 		}
 
+		asort($arrReturn);
 		return $arrReturn;
 	}
 }
